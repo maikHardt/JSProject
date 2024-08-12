@@ -1,11 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hallo Welt</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grundlagen der modernen Web-Programmierung</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hallo</h1>
+
+<main class="container">
+  <div class="title">
+    <h1>Grundlagen der modernen Web-Programmierung</h1>
+    <h3>Andrej Podlubnyj</h3>
+    <h3>Kurs - 2024</h3>
+  </div>
+
+  <section class="calculator">
+    <label for="num1">Nummer 1:</label>
+    <input type="number" id="num1" placeholder="Nummer 1 eingeben">
+    <label for="num2">Nummer 2:</label>
+    <input type="number" id="num2" placeholder="Nummer 2 eingeben">
+    <button type="button" id="button">Berechnen</button>
+    <div id="result"></div>
+  </section>
+  <footer>2024 - © andron13</footer>
+</main>
+
+<script src="main.js"></script>
 </body>
 </html>
