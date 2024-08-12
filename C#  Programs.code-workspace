@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../C#  Programs"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "JS Programs"
+	}
+}
